@@ -1,2 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
+using modul4_103022300160;
+
+public class program
+{
+    public static void Main()
+    {
+        FanLaptop fanLaptop = new FanLaptop();
+        fanLaptop.simulasi();
+    }
+}
